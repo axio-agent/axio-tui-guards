@@ -160,19 +160,19 @@ wheels = [
 
 [[package]]
 name = "axio"
-version = "0.1.1"
+version = "0.2.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "pydantic" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/d5/c4/9fb5beefc5fa3090de3bfbdbf761fa14b0467e04d60f464166ccc0e9ca4c/axio-0.1.1.tar.gz", hash = "sha256:c59d8b246355379653dc967306189d997328dbfe145bbddf8873ec5786f48420", size = 53962, upload-time = "2026-03-22T18:38:36.497Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/0b/df/df4f46276669df7bf3c62e5bef60fee611e9fa902ee714a3cbc77e510022/axio-0.2.0.tar.gz", hash = "sha256:10ae13271c3f097c0e20b1f3e5b039cfca04f52533fb926b8254828199f55206", size = 53963, upload-time = "2026-03-22T19:22:50.096Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/19/07/74deca7e757a5e66fe58ad0c54e605764e8407c49021dd5fe4d9947c9f8b/axio-0.1.1-py3-none-any.whl", hash = "sha256:b764858e311825e5648354fda579894cc522a10d3bc4cf939e8517ffc2fb1b54", size = 16836, upload-time = "2026-03-22T18:38:35.348Z" },
+    { url = "https://files.pythonhosted.org/packages/26/c0/a27ce8b4ff865d15cbb45cd4f1a8d63cc8d3bd34295ee5091d8d5e1f9175/axio-0.2.0-py3-none-any.whl", hash = "sha256:a1372d44f1102d18d123ced7a5c70dda2bc007ee5f653250e7c65a68866c75a4", size = 16833, upload-time = "2026-03-22T19:22:48.974Z" },
 ]
 
 [[package]]
 name = "axio-tui"
-version = "0.1.0"
+version = "0.2.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "aiosqlite" },
@@ -181,14 +181,14 @@ dependencies = [
     { name = "textual" },
     { name = "textual-serve" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/3e/b3/3f790a858786c6dce2632ea086a00db39264388091444afacecff6219ebb/axio_tui-0.1.0.tar.gz", hash = "sha256:9216173e560e48cc9260ec591a0d898163d39c4ffbf9f9d8a005ac0288b0ae34", size = 46368, upload-time = "2026-03-22T16:30:01.519Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/83/1a/9954970dd4f153b158a6969fc11520e4362f80373a7a9408d1c46d782f37/axio_tui-0.2.0.tar.gz", hash = "sha256:430ae55b941fba225601dbe368ab51e5e372f100785ad60a029a6f0a6467ce11", size = 161541, upload-time = "2026-03-22T19:23:43.021Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/92/28/45d572ff27b2bc2bc94900ddcb98386675893ac107873b1f972f076a2c00/axio_tui-0.1.0-py3-none-any.whl", hash = "sha256:a7dc6db79d99aca5b0603931bae3cf16a1f65270616bf3f84ffd952f010e863b", size = 39074, upload-time = "2026-03-22T16:29:59.967Z" },
+    { url = "https://files.pythonhosted.org/packages/ee/3e/df160012842de39115fd9d13057c8be5fe380d0629f924ce6ec81a8508b2/axio_tui-0.2.0-py3-none-any.whl", hash = "sha256:f88398e9d0031b81e30870976d8a0e5adc1e1905a9508889d7b9dcbeb1d9f9ac", size = 39090, upload-time = "2026-03-22T19:23:41.519Z" },
 ]
 
 [[package]]
 name = "axio-tui-guards"
-version = "0.1.0"
+version = "0.2.1"
 source = { editable = "." }
 dependencies = [
     { name = "axio" },

@@ -1,6 +1,6 @@
 [project]
 name = "axio-tui-guards"
-version = "0.1.0"
+version = "0.2.1"
 description = "Guards plugin for Axio TUI"
 requires-python = ">=3.12"
 license = {text = "MIT"}
