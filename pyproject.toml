@@ -1,16 +1,21 @@
 [project]
 name = "axio-tui-guards"
-version = "0.2.2"
+version = "0.2.3"
 description = "Guards plugin for Axio TUI"
 readme = "README.md"
 requires-python = ">=3.12"
 license = {text = "MIT"}
+keywords = ["llm", "agent", "ai", "tui", "textual", "guards", "terminal"]
 dependencies = ["axio", "axio-tui"]
 
 [project.entry-points."axio.guards"]
 path = "axio_tui_guards.guards:PathGuard"
 llm = "axio_tui_guards.guards:LLMGuard"
 
+
+[project.urls]
+Homepage = "https://github.com/axio-agent/axio-tui-guards"
+Repository = "https://github.com/axio-agent/axio-tui-guards"
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
