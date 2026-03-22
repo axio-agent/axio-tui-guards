@@ -15,7 +15,6 @@ from axio_tui.tools import Confirm
 
 from axio_tui_guards.guards import LLMGuard, PathGuard
 
-
 # ---------------------------------------------------------------------------
 # Minimal stub handlers — no dependency on axio-tools-local
 # ---------------------------------------------------------------------------
